@@ -1,0 +1,76 @@
+{
+  "version": 4,
+  "terraform_version": "1.15.8",
+  "serial": 2,
+  "lineage": "4beb3621-ac7a-b1cf-9c01-3697b7ed7d4b",
+  "outputs": {
+    "cluster_name": {
+      "value": "assignment-cluster",
+      "type": "string"
+    },
+    "kubeconfig_path": {
+      "value": "/home/suman-dachepalli/Desktop/k8s-assignment/terraform/assignment-cluster-config",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "kind_cluster",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/tehcyx/kind\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "client_certificate": "-----BEGIN CERTIFICATE-----\nMIIDKTCCAhGgAwIBAgIIWWbpLBQYo6QwDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA4MTgwNzAzNDlaFw0yNzA4MTgwNzA4NDlaMDwx\nHzAdBgNVBAoTFmt1YmVhZG06Y2x1c3Rlci1hZG1pbnMxGTAXBgNVBAMTEGt1YmVy\nbmV0ZXMtYWRtaW4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDg53BF\nes9mK/fzOMeJQW0XuBabT4c95GVh1WnEOTh4Np3xvqoJ/Q70A/GmHdvEnxHPHntl\n8mwxLomLaDOISC6jEpGiTRUjxjizM6zoFFKuwLGQ172RqfrygA/8V4emPdeGB5aZ\n1PAb8/WBnUByqJA86uaEV029Xvr5ZhaHcGYOk8e6pm7tUjoANgWbYt8VmYSAsla/\nNPAHvrxMbjpRVFfK3mYOzHe41Nzm4cc/WBRamNxrmwMa6Qn3ewo1J9ivTy/lkcbY\nAoCjZU1Klds3sNGf+MW2GBQdgVyEv4BZvMh4/aNKORVkKkGMnjXj9TpbQQUXvi6a\nBoEcWMRBD+/+HDhtAgMBAAGjVjBUMA4GA1UdDwEB/wQEAwIFoDATBgNVHSUEDDAK\nBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFP7KTQ0Zvj7ROTyZ\nie8cosMVe0fAMA0GCSqGSIb3DQEBCwUAA4IBAQAXCiZETqQgVrN83+KlChCxd58b\npeenY1PO+NrH1uhA9bSnMVD4RLWoweyuY2Ru1wuH8WG8BxW2wLZVULZcP961p5gw\nanauxCCVHehOcicQLG72vcTN7b53If9nu0RSxaaxT82dKkJ9vwDlATUNiuekkCt5\n8d+gtmAKJ2HpuNS9ndJzL28QYaREShzpLyYQmB4FSQbusFFjtvMsR8fqdaKzkWOj\nic3onPfx13vjHQ15HFrasPRV+LOJIfLBlJz4Ea2N4J/aXACV5Qq68s4Il0QeYwx3\nlaF8An5V6xeZTGxmbPIWTbrgOBynldkOwWG9RSwp01McPat6oTtxFHB4iCHw\n-----END CERTIFICATE-----\n",
+            "client_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA4OdwRXrPZiv38zjHiUFtF7gWm0+HPeRlYdVpxDk4eDad8b6q\nCf0O9APxph3bxJ8Rzx57ZfJsMS6Ji2gziEguoxKRok0VI8Y4szOs6BRSrsCxkNe9\nkan68oAP/FeHpj3XhgeWmdTwG/P1gZ1AcqiQPOrmhFdNvV76+WYWh3BmDpPHuqZu\n7VI6ADYFm2LfFZmEgLJWvzTwB768TG46UVRXyt5mDsx3uNTc5uHHP1gUWpjca5sD\nGukJ93sKNSfYr08v5ZHG2AKAo2VNSpXbN7DRn/jFthgUHYFchL+AWbzIeP2jSjkV\nZCpBjJ414/U6W0EFF74umgaBHFjEQQ/v/hw4bQIDAQABAoIBAAZpSpfMdbObrsSR\n+ow034OE1a4lQP14cJRupUZ4/B1fLzb4QLgqrN2zbBTYdo6fGz6ch5eDJubrBPRC\nqu9oYV34NksaZ+8eZDjlkPkHtUiyiQ1QPSD1J8h4cpw2sZEBY864Eii9+39Mf9Pr\nU+5A1GXMK3ib1YU/uydXa+59+4bQTXvP2IdKSDEsunv9ZJiBdGGqs67SQhpkMt70\nXHTWQEwEiGt91xLEo7oHMvFJWPZ/lSyE+pyZOUwy7PzkCpLEV/HJMmGn/p2rvu/W\nqv8zwEDoVzpdkcan3rksj7Rt4zr9AmoeGlYyGZEBg1dqyBEqsFN3kW9yt/1mYpDv\nL10IT8kCgYEA73iSh8verieXmW9H/FhrjMUM5sYIxYLvh5M19C3qxqVAjKKNiJh3\nRMomqHt9VBhEzJqpTr/pJts8/uE5tdmBU6L0x+xMa87PI3r0Cio33/cFpT+owAe7\nah+YwMyuuGqCCRD7cSzJy/oyej0CPpHrpBvj86vcOl+u8w3bY481FEkCgYEA8G14\nVLu8LD3kdKNVwtwkA7TIkjFLAed2Iw9yP5o4Y+zx9TxjTkbOgT10y5eFWWhQEHzB\nLdpsL8mM6WeW7G14Qh8sKmmfF5UgwEE2epKGjMlgusK3y9DCo/nAgjudO9G/Rcw7\n1QaAUPiqgxqd9e+HZQE2BGQ6CvojDl929zc2OwUCgYA2xP/WeSVD9aAxoob3Sw3G\nE2dg/JgS/GBmRKAJadsRdcguohr2y9Azdnyi+iNu8WIC3bitXy0nCuuHa+G0Grv+\ncf3EH+JWoeU0OzHHhWJkIe4znjytNteBbRqVtfqcCRgWlMC9YL4CngWfeYai4uLf\nFNXs7DihTTMJOfkcayt7qQKBgAgamIC6pzgSif3Id56OzwP09wG+eZnB1ICQB7jP\nGPF9ThaHB43e4x0GFka6f7sowfIcUmKaRyVBNOe1Hygu9Gu+Iz32u28PDsCMMirl\nf3WFYCZLY+iRy829IFkDa2RVyI2wuZ+PjYmtKAotPn/IqBameMyjGDXAgqf8XcUt\nbj2FAoGBALY6W51JoWBE3P/oRcnA9IQZrL7IX4bLWyEr9h3Y8PTj2H68LeEtSzlc\nXYU9UdHk9ohGfNnjYbrL21gWZilWCsqS9078C9WHcwUONu+Jrr9UBSZ1nUkriIpn\nqQIvUqNeR/4kuG3zVmHGnYybziETmx3PQMbgnVuzhWR0e+rnhQU2\n-----END RSA PRIVATE KEY-----\n",
+            "cluster_ca_certificate": "-----BEGIN CERTIFICATE-----\nMIIDBTCCAe2gAwIBAgIIfr4XfYSViTswDQYJKoZIhvcNAQELBQAwFTETMBEGA1UE\nAxMKa3ViZXJuZXRlczAeFw0yNjA4MTgwNzAzNDlaFw0zNjA4MTUwNzA4NDlaMBUx\nEzARBgNVBAMTCmt1YmVybmV0ZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQCyuleRU0VW/j/OIiW47YImkz1b9Umxaj+hYL5ht+rMtZpysAuZGY1qsQol\nMQdKpL3PBe6jrGSGlOZQMjD/+VaxKQzBeI1RX4j5hy7wwLZr/ai8F+hc7WoFXc2a\nVx+91nLT+bUkygle3AjHznX9YWKl8OLfSKh2oe3CAdMxK2Ok/xg08+hAFx/82DRd\nSG6QzMgxjKPY39Tq4MTNtQofU9C2GujMpZRGk1jNy6rKvM/e2wTWGrLAPcD+CyU/\nwMdZOJXD0gVvc455pnt0sJdZ0M8/pwNL5DbWhKjEcWK0HZqbR+r4CkAJzWBOO3su\nNeqAWd3nriHALi2T5Hv0PJqjkTEfAgMBAAGjWTBXMA4GA1UdDwEB/wQEAwICpDAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBT+yk0NGb4+0Tk8mYnvHKLDFXtHwDAV\nBgNVHREEDjAMggprdWJlcm5ldGVzMA0GCSqGSIb3DQEBCwUAA4IBAQBcuud6V+eD\n0n+V66vHJhG0c/6eF10WTcfF7FiZnLQ41mjexRTULZPR2MdpBmOcU5zkQwKWf/WR\ndSNg8Zbe8ESKo0tmHgNIB12t/w1ukBguvlDBzQSCubLh0OrCBGJIkcVGUv6Fh2Qf\nPAZ24hufguYrQy+578ERNaATF1Rtp/vg/XsXFfQuX9nRs6rjzgZ5HLqQL5Mv2v/h\nglDdWY15UOTnsrkdGEsFtuTG4ocDRGh5BYcleXCLd94AoglpnYfXXW9iJIiNRCg+\n0klM205kJeELmpu0Dcp1FShkruLmD+ck02/CS6POu+G1Eds9ascOfSn9wRMwK1+D\npbkKro3W8AId\n-----END CERTIFICATE-----\n",
+            "completed": true,
+            "endpoint": "https://127.0.0.1:39075",
+            "id": "assignment-cluster-",
+            "kind_config": [
+              {
+                "api_version": "kind.x-k8s.io/v1alpha4",
+                "containerd_config_patches": null,
+                "feature_gates": null,
+                "kind": "Cluster",
+                "networking": [],
+                "node": [
+                  {
+                    "extra_mounts": [],
+                    "extra_port_mappings": [
+                      {
+                        "container_port": 30080,
+                        "host_port": 8080,
+                        "listen_address": "",
+                        "protocol": "TCP"
+                      }
+                    ],
+                    "image": "",
+                    "kubeadm_config_patches": [
+                      "kind: InitConfiguration\nnodeRegistration:\n  kubeletExtraArgs:\n    node-labels: \"ingress-ready=true\"\n"
+                    ],
+                    "labels": null,
+                    "role": "control-plane"
+                  }
+                ],
+                "runtime_config": null
+              }
+            ],
+            "kubeconfig": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJZnI0WGZZU1ZpVHN3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBNE1UZ3dOekF6TkRsYUZ3MHpOakE0TVRVd056QTRORGxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN5dWxlUlUwVlcvai9PSWlXNDdZSW1rejFiOVVteGFqK2hZTDVodCtyTXRacHlzQXVaR1kxcXNRb2wKTVFkS3BMM1BCZTZqckdTR2xPWlFNakQvK1ZheEtRekJlSTFSWDRqNWh5N3d3TFpyL2FpOEYraGM3V29GWGMyYQpWeCs5MW5MVCtiVWt5Z2xlM0FqSHpuWDlZV0tsOE9MZlNLaDJvZTNDQWRNeEsyT2sveGcwOCtoQUZ4LzgyRFJkClNHNlF6TWd4aktQWTM5VHE0TVROdFFvZlU5QzJHdWpNcFpSR2sxak55NnJLdk0vZTJ3VFdHckxBUGNEK0N5VS8Kd01kWk9KWEQwZ1Z2YzQ1NXBudDBzSmRaME04L3B3Tkw1RGJXaEtqRWNXSzBIWnFiUityNENrQUp6V0JPTzNzdQpOZXFBV2QzbnJpSEFMaTJUNUh2MFBKcWprVEVmQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUK3lrME5HYjQrMFRrOG1ZbnZIS0xERlh0SHdEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQmN1dWQ2VitlRAowbitWNjZ2SEpoRzBjLzZlRjEwV1RjZkY3RmlabkxRNDFtamV4UlRVTFpQUjJNZHBCbU9jVTV6a1F3S1dmL1dSCmRTTmc4WmJlOEVTS28wdG1IZ05JQjEydC93MXVrQmd1dmxEQnpRU0N1YkxoME9yQ0JHSklrY1ZHVXY2RmgyUWYKUEFaMjRodWZndVlyUXkrNTc4RVJOYUFURjFSdHAvdmcvWHNYRmZRdVg5blJzNnJqemdaNUhMcVFMNU12MnYvaApnbERkV1kxNVVPVG5zcmtkR0VzRnR1VEc0b2NEUkdoNUJZY2xlWENMZDk0QW9nbHBuWWZYWFc5aUpJaU5SQ2crCjBrbE0yMDVrSmVFTG1wdTBEY3AxRlNoa3J1TG1EK2NrMDIvQ1M2UE91K0cxRWRzOWFzY09mU245d1JNd0sxK0QKcGJrS3JvM1c4QUlkCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://127.0.0.1:39075\n  name: kind-assignment-cluster\ncontexts:\n- context:\n    cluster: kind-assignment-cluster\n    user: kind-assignment-cluster\n  name: kind-assignment-cluster\ncurrent-context: kind-assignment-cluster\nkind: Config\npreferences: {}\nusers:\n- name: kind-assignment-cluster\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLVENDQWhHZ0F3SUJBZ0lJV1dicExCUVlvNlF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TmpBNE1UZ3dOekF6TkRsYUZ3MHlOekE0TVRnd056QTRORGxhTUR3eApIekFkQmdOVkJBb1RGbXQxWW1WaFpHMDZZMngxYzNSbGNpMWhaRzFwYm5NeEdUQVhCZ05WQkFNVEVHdDFZbVZ5CmJtVjBaWE10WVdSdGFXNHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEZzUzQkYKZXM5bUsvZnpPTWVKUVcwWHVCYWJUNGM5NUdWaDFXbkVPVGg0TnAzeHZxb0ovUTcwQS9HbUhkdkVueEhQSG50bAo4bXd4TG9tTGFET0lTQzZqRXBHaVRSVWp4aml6TTZ6b0ZGS3V3TEdRMTcyUnFmcnlnQS84VjRlbVBkZUdCNWFaCjFQQWI4L1dCblVCeXFKQTg2dWFFVjAyOVh2cjVaaGFIY0dZT2s4ZTZwbTd0VWpvQU5nV2JZdDhWbVlTQXNsYS8KTlBBSHZyeE1ianBSVkZmSzNtWU96SGU0MU56bTRjYy9XQlJhbU54cm13TWE2UW4zZXdvMUo5aXZUeS9sa2NiWQpBb0NqWlUxS2xkczNzTkdmK01XMkdCUWRnVnlFdjRCWnZNaDQvYU5LT1JWa0trR01ualhqOVRwYlFRVVh2aTZhCkJvRWNXTVJCRCsvK0hEaHRBZ01CQUFHalZqQlVNQTRHQTFVZER3RUIvd1FFQXdJRm9EQVRCZ05WSFNVRUREQUsKQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjhHQTFVZEl3UVlNQmFBRlA3S1RRMFp2ajdST1R5WgppZThjb3NNVmUwZkFNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUFYQ2laRVRxUWdWck44MytLbENoQ3hkNThiCnBlZW5ZMVBPK05ySDF1aEE5YlNuTVZENFJMV293ZXl1WTJSdTF3dUg4V0c4QnhXMndMWlZVTFpjUDk2MXA1Z3cKYW5hdXhDQ1ZIZWhPY2ljUUxHNzJ2Y1RON2I1M0lmOW51MFJTeGFheFQ4MmRLa0o5dndEbEFUVU5pdWVra0N0NQo4ZCtndG1BS0oySHB1TlM5bmRKekwyOFFZYVJFU2h6cEx5WVFtQjRGU1FidXNGRmp0dk1zUjhmcWRhS3prV09qCmljM29uUGZ4MTN2akhRMTVIRnJhc1BSVitMT0pJZkxCbEp6NEVhMk40Si9hWEFDVjVRcTY4czRJbDBRZVl3eDMKbGFGOEFuNVY2eGVaVEd4bWJQSVdUYnJnT0J5bmxka093V0c5UlN3cDAxTWNQYXQ2b1R0eEZIQjRpQ0h3Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBNE9kd1JYclBaaXYzOHpqSGlVRnRGN2dXbTArSFBlUmxZZFZweERrNGVEYWQ4YjZxCkNmME85QVB4cGgzYnhKOFJ6eDU3WmZKc01TNkppMmd6aUVndW94S1JvazBWSThZNHN6T3M2QlJTcnNDeGtOZTkKa2FuNjhvQVAvRmVIcGozWGhnZVdtZFR3Ry9QMWdaMUFjcWlRUE9ybWhGZE52Vjc2K1dZV2gzQm1EcFBIdXFadQo3Vkk2QURZRm0yTGZGWm1FZ0xKV3Z6VHdCNzY4VEc0NlVWUlh5dDVtRHN4M3VOVGM1dUhIUDFnVVdwamNhNXNECkd1a0o5M3NLTlNmWXIwOHY1WkhHMkFLQW8yVk5TcFhiTjdEUm4vakZ0aGdVSFlGY2hMK0FXYnpJZVAyalNqa1YKWkNwQmpKNDE0L1U2VzBFRkY3NHVtZ2FCSEZqRVFRL3YvaHc0YlFJREFRQUJBb0lCQUFacFNwZk1kYk9icnNTUgorb3cwMzRPRTFhNGxRUDE0Y0pSdXBVWjQvQjFmTHpiNFFMZ3FyTjJ6YkJUWWRvNmZHejZjaDVlREp1YnJCUFJDCnF1OW9ZVjM0TmtzYVorOGVaRGpsa1BrSHRVaXlpUTFRUFNEMUo4aDRjcHcyc1pFQlk4NjRFaWk5KzM5TWY5UHIKVSs1QTFHWE1LM2liMVlVL3V5ZFhhKzU5KzRiUVRYdlAySWRLU0RFc3VudjlaSmlCZEdHcXM2N1NRaHBrTXQ3MApYSFRXUUV3RWlHdDkxeExFbzdvSE12RkpXUFovbFN5RStweVpPVXd5N1B6a0NwTEVWL0hKTW1Hbi9wMnJ2dS9XCnF2OHp3RURvVnpwZGtjYW4zcmtzajdSdDR6cjlBbW9lR2xZeUdaRUJnMWRxeUJFcXNGTjNrVzl5dC8xbVlwRHYKTDEwSVQ4a0NnWUVBNzNpU2g4dmVyaWVYbVc5SC9GaHJqTVVNNXNZSXhZTHZoNU0xOUMzcXhxVkFqS0tOaUpoMwpSTW9tcUh0OVZCaEV6SnFwVHIvcEp0czgvdUU1dGRtQlU2TDB4K3hNYTg3UEkzcjBDaW8zMy9jRnBUK293QWU3CmFoK1l3TXl1dUdxQ0NSRDdjU3pKeS9veWVqMENQcEhycEJ2ajg2dmNPbCt1OHczYlk0ODFGRWtDZ1lFQThHMTQKVkx1OExEM2tkS05Wd3R3a0E3VElrakZMQWVkMkl3OXlQNW80WSt6eDlUeGpUa2JPZ1QxMHk1ZUZXV2hRRUh6QgpMZHBzTDhtTTZXZVc3RzE0UWg4c0ttbWZGNVVnd0VFMmVwS0dqTWxndXNLM3k5RENvL25BZ2p1ZE85Ry9SY3c3CjFRYUFVUGlxZ3hxZDllK0haUUUyQkdRNkN2b2pEbDkyOXpjMk93VUNnWUEyeFAvV2VTVkQ5YUF4b29iM1N3M0cKRTJkZy9KZ1MvR0JtUktBSmFkc1JkY2d1b2hyMnk5QXpkbnlpK2lOdThXSUMzYml0WHkwbkN1dUhhK0cwR3J2KwpjZjNFSCtKV29lVTBPekhIaFdKa0llNHpuanl0TnRlQmJScVZ0ZnFjQ1JnV2xNQzlZTDRDbmdXZmVZYWk0dUxmCkZOWHM3RGloVFRNSk9ma2NheXQ3cVFLQmdBZ2FtSUM2cHpnU2lmM0lkNTZPendQMDl3RytlWm5CMUlDUUI3alAKR1BGOVRoYUhCNDNlNHgwR0ZrYTZmN3Nvd2ZJY1VtS2FSeVZCTk9lMUh5Z3U5R3UrSXozMnUyOFBEc0NNTWlybApmM1dGWUNaTFkraVJ5ODI5SUZrRGEyUlZ5STJ3dVorUGpZbXRLQW90UG4vSXFCYW1lTXlqR0RYQWdxZjhYY1V0CmJqMkZBb0dCQUxZNlc1MUpvV0JFM1Avb1JjbkE5SVFackw3SVg0YkxXeUVyOWgzWThQVGoySDY4TGVFdFN6bGMKWFlVOVVkSGs5b2hHZk5uallickwyMWdXWmlsV0NzcVM5MDc4QzlXSGN3VU9OdStKcnI5VUJTWjFuVWtyaUlwbgpxUUl2VXFOZVIvNGt1RzN6Vm1IR25ZeWJ6aUVUbXgzUFFNYmduVnV6aFdSMGUrcm5oUVUyCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==\n",
+            "kubeconfig_path": "/home/suman-dachepalli/Desktop/k8s-assignment/terraform/assignment-cluster-config",
+            "name": "assignment-cluster",
+            "node_image": null,
+            "timeouts": null,
+            "wait_for_ready": true
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjMwMDAwMDAwMDAwMH19"
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

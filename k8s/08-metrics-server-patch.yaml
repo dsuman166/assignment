@@ -1,0 +1,24 @@
+# Apply this AFTER installing the upstream metrics-server manifest:
+#   kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+#   kubectl apply -f k8s/08-metrics-server-patch.yaml
+#
+# Kind's kubelets use self-signed certs, so metrics-server needs
+# --kubelet-insecure-tls to work in this local-only environment.
+# (In a real cluster with proper kubelet certs, you would NOT do this.)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: metrics-server
+  namespace: kube-system
+spec:
+  template:
+    spec:
+      containers:
+        - name: metrics-server
+          args:
+            - --cert-dir=/tmp
+            - --secure-port=10250
+            - --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname
+            - --kubelet-use-node-status-port
+            - --metric-resolution=15s
+            - --kubelet-insecure-tls

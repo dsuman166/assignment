@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: postgres-pvc
+  namespace: assignment
+spec:
+  accessModes:
+    - ReadWriteOnce
+  # Kind ships a default StorageClass ("standard") backed by local host-path
+  # provisioning, so no storageClassName override is required.
+  resources:
+    requests:
+      storage: 1Gi
